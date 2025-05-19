@@ -8,7 +8,7 @@
 <body>
     <header class="site-header">
     <div class="container">
-        <h1 class="logo">anime<span>planet</span></h1>
+        <h1 class="logo">anime<span>RECO</span></h1>
         <nav class="main-nav">
             <ul>
                 <li><a href="../../index.php">Home</a></li>
