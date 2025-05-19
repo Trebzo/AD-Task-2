@@ -4,16 +4,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Trebzo/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/animeRECO.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">animeRECO</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  animeRECO is a website which shares manga and animes that are popular and are top picked. 
+  It is a website designed to help watchers and readers to help them on what to watch or read based on
+  popularity and top picked.
 </div>
 
 <br />
@@ -21,7 +23,7 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Trebzo/AD-CI4-Template-Project)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -61,15 +63,35 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+A simple PHP-based website that showcases anime and manga collections using arrays, functions, and modular components
+Pages:
+
+Landing Page (index.php) – Links to Anime and Manga sections.
+
+Anime Page – Displays a list of anime using cards.
+
+Manga Page – Displays a list of manga using cards.
+
+Key Features:
+
+PHP arrays & functions to render content
+
+Reusable header and footer components
+
+CSS-based custom banners and layout
+
+Unified style with responsive design structure
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+1. Header (components/header.component.php)
+2. Footer (components/footer.component.php)
+3. Banner Section (unique to each page)
+4. Card Display Section (using PHP loops)
+5. Shared Styles (/assets/css/style.css)
 
 ### Technology
 
@@ -77,21 +99,7 @@ Description of the project in details.
 #### Language
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -121,21 +129,46 @@ AD-ProjectName
 |   └─ js
 |       └─ name.js
 └─ components
-|   └─ name.component.php
-|   └─ templates
-|      └─ name.component.php
+|   └─ header.component.php
+|   └─ footer.component.php
 └─ handlers
 |   └─ name.handler.php
 └─ pages
-|  └─ pageName
+|  └─ anime
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ name.css
+|     |  |  
 |     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
+|     |  |  └─ fire.jpg
+|     |  |  └─ honey-lemon-soda.webp
+|     |  |  └─ ippo.jpg
+|     |  |  └─ my-hero.jpg
+|     |  |  └─ one.jpg
+|     |  |  └─ saga.jpg
+|     |  |  └─ welcome-to-japan.jpg
 |     |  └─ js
-|     |     └─ name.js
+|     |     
 |     └─ index.php
+|  └─manga
+|     └─ assets
+|     |  └─ css
+|     |  |  
+|     |  └─ img
+|     |  |  └─ chain.jpg
+|     |  |  └─ ippo.webp
+|     |  |  └─ juju.jpg
+|     |  |  └─ one.jpg
+|     |  |  └─ oshi.jpg
+|     |  └─ js
+|     |     
+|     └─ index.php
+|
+|
+|
+|
+|
+|
+|
 └─ utils
 |   └─ name.utils.php
 └─ vendor
@@ -155,7 +188,25 @@ AD-ProjectName
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| mainheader.avif | Landing Page Banner                                                        | - https://screenrant.com/best-selling-manga-of-all-time/ |
+| manga.webp   | manga page banner                                                             | https://www.reddit.com/r/VinlandSaga/comments/ojmyzs/manga_a_vinland_saga_twitter_header_created_by_me/ |
+| danilo-pena-karz.jpg | anime page banner                                                     | https://www.artstation.com/artwork/03mv6w |
+
+
+| anime images | Images used for the anime page                                                 | Link                                               |
+|--------------|--------------------------------------------------------------------------------|----------------------------------------------------|
+|my-hero.jpg   | Images used for the anime page                                                 |https://www.imdb.com/title/tt5626028/
+|fire.jpg      |Images used for the anime page                                                  |https://www.imdb.com/title/tt9307686/
+|honey-lemon-soda.webp| Images used for the anime page                                          |https://www.crunchyroll.com/news/latest/2024/12/2/honey-lemon-soda-release-date-trailer-visual-theme-songs
+|ippo.jpg      |Images used for the anime page                                                  |https://www.imdb.com/title/tt0481256/
+|one.jpg       |Images used for the anime page                                                  |https://www.imdb.com/title/tt4508902/
+|saga.jpg      |Images used for the anime page                                                  |https://ph.pinterest.com/pin/597008494346787456/
+|welcome-to-japan.jpg| Images used for the anime page                                           |https://www.imdb.com/title/tt30689448/
+
+| manga images | Images used for the manga page                                                 | Link                                               |
+|--------------|--------------------------------------------------------------------------------|----------------------------------------------------|
+|chain.jpg     | Images used for the manga page                                                 |https://www.amazon.co.uk/Chainsaw-Man-Vol-1/dp/1974709930
+|ippo.webp     | Images used for the manga page                                                 |https://ippo.fandom.com/wiki/Volume_140
+|juju.jpg      | Images used for the manga page                                                 |https://www.viz.com/shonenjump/chapters/jujutsu-kaisen
+|one.jpg       | Images used for the manga page                                                 |https://www.ubuy.com.ph/product/4157ZRL2G-one-piece-vol-100
+|oshi.jpg      | Images used for the manga page                                                 |https://www.ebay.ph/itm/175685099860
