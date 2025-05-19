@@ -1,0 +1,16 @@
+{
+    "name": "ozbertsales/ad-task-2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ozbertsales\\AdTask2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ozbert",
+            "email": "202310393@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}
